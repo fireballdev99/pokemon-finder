@@ -1,38 +1,77 @@
-.App {
+.main-div{
+  width: 100%;
+  height: 100vh;
+  background: url('https://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/a9a51bc0b8d626db493ab5f9a971b043/background-hero.png?imageOpt=1&fit=bounds&width=2163') no-repeat;
+}
+
+form{
+  text-align: center;
+  padding: 2rem 0;
+}
+
+input[type="text"]{
+  width: 200px;
+  padding: 1rem 2rem;
+  background:rgba(255,255,255,0.8);
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+input[type="submit"]{
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+  background: rgb(5,131,53);
+  color: #fff;
+  cursor: pointer;
+}
+
+.poke-pic{
+  width: 300px;
+  margin: 0 auto;
+  background:rgba(255,255,255,0.8);
+  text-align: center;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+.poke-pic img{
+  width: 100%;
+}
+
+.poke-name-title{
+  color:#333;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.poke-pic li{
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.error{
+  width: 400px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error img{
+  width: 100%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error h2{
+  background: #8f2020;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+  box-shadow: rgba(0,0,0,0.4);
 }
